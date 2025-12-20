@@ -8,7 +8,7 @@ const CITIES = {
       "Kæmpe bonus hvis du elsker croissanter og udsigt",
       "Julelys + romantik = farligt niveau ❤️"
     ],
-    image: "assets/cities/paris.jpg"
+    image: "assets/byer/paris.jpg"
   },
   rome: {
     name: "Rom 🇮🇹",
@@ -18,7 +18,7 @@ const CITIES = {
       "Smuk arkitektur og hyggelige aftenture",
       "Ideel hvis du kan lide varme vibes"
     ],
-    image: "assets/cities/rome.jpg"
+    image: "assets/byer/rome.jpg"
   },
   barcelona: {
     name: "Barcelona 🇪🇸",
@@ -28,7 +28,7 @@ const CITIES = {
       "Perfekt hvis du elsker energi og farver",
       "Tapas-date? Ja tak."
     ],
-    image: "assets/cities/barcelona.jpg"
+    image: "assets/byer/barcelona.jpg"
   },
   london: {
     name: "London 🇬🇧",
@@ -38,7 +38,7 @@ const CITIES = {
       "Jul i London går helt amok (på den gode måde)",
       "Ideel til 'vi skal lige i én butik mere'"
     ],
-    image: "assets/cities/london.jpg"
+    image: "assets/byer/london.jpg"
   },
   amsterdam: {
     name: "Amsterdam 🇳🇱",
@@ -48,7 +48,7 @@ const CITIES = {
       "Nem at opleve til fods/cykel",
       "Perfekt til afslappet storbytur"
     ],
-    image: "assets/cities/amsterdam.jpg"
+    image: "assets/byer/amsterdam.jpg"
   },
   prague: {
     name: "Prag 🇨🇿",
@@ -58,7 +58,7 @@ const CITIES = {
       "Julemarkeder der føles som en film",
       "God hvis du elsker 'magisk stemning'"
     ],
-    image: "assets/cities/prague.jpg"
+    image: "assets/byer/prague.jpg"
   },
   berlin: {
     name: "Berlin 🇩🇪",
@@ -68,7 +68,7 @@ const CITIES = {
       "Julemarkeder (glühwein-hazard ☕️)",
       "Perfekt hvis du vil have både chill og oplevelser"
     ],
-    image: "assets/cities/berlin.jpg"
+    image: "assets/byer/berlin.jpg"
   }
 };
 
