@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🎄 Julequiz: Din perfekte storby</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="snow" aria-hidden="true"></div>
+
+  <main class="container">
+    <header class="hero">
+      <img class="santa" src="assets/santa-you.png" alt="Julemanden (dig)" onerror="this.style.display='none'">
+      <div>
+        <h1>🎁 Julequiz: Din perfekte storby</h1>
+        <p class="sub">
+          Ho ho ho! Svar på 5 spørgsmål – så afslører Julemanden din næste storby 🛷✨
+        </p>
+        <p class="note">
+          <strong>Gave:</strong> Når du får din by, giver jeg <strong>1.000 kr</strong> i tilskud til turen ❤️
+        </p>
+      </div>
+    </header>
+
+    <section class="card" id="startCard">
+      <h2>Klar?</h2>
+      <p>
+        Det tager ca. 1 minut. Og ja… jeg har fået julehat på, så det er seriøst.
+      </p>
+      <button class="btn primary" id="startBtn">Start quiz 🎄</button>
+      <p class="tiny">Tip: Svar ærligt… (jeg kan se det 😇)</p>
+    </section>
+
+    <section class="card hidden" id="quizCard">
+      <div class="progress">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+
+      <div class="meta">
+        <span id="qCounter">Spørgsmål 1/5</span>
+        <span class="pill">🎅 Julemode: ON</span>
+      </div>
+
+      <h2 id="questionTitle"></h2>
+      <div id="answers" class="answers"></div>
+
+      <div class="nav">
+        <button class="btn" id="backBtn" disabled>Tilbage</button>
+        <button class="btn primary" id="nextBtn" disabled>Næste</button>
+      </div>
+    </section>
+
+    <section class="card hidden" id="resultCard">
+      <h2>✨ Resultat</h2>
+      <p class="resultLine">
+        Julemanden har talt… din perfekte storby er:
+      </p>
+
+      <div class="resultBox">
+        <div>
+          <h3 id="cityName"></h3>
+          <p id="cityTagline" class="tagline"></p>
+          <ul id="cityBullets" class="bullets"></ul>
+          <p class="voucher">🎁 Tilskud: <strong>1.000 kr</strong> (jeg mener det!)</p>
+
+          <div class="shareRow">
+            <button class="btn" id="restartBtn">Tag quizzen igen</button>
+            <button class="btn primary" id="copyBtn">Kopiér resultat 💌</button>
+          </div>
+          <p id="copyToast" class="toast hidden">Kopieret!</p>
+        </div>
+
+        <div class="cityImageWrap">
+          <img id="cityImg" class="cityImage" alt="Billede af destination" />
+          <div class="imgFallback" id="imgFallback">📍</div>
+        </div>
+      </div>
+
+      <p class="tiny">
+        PS: Hvis du vil “forhandle” destinationen, kræver det kram og pebernødder.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <span>Made with 🎄 + ❤️</span>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
