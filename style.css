@@ -244,3 +244,10 @@ h1{
   from{ transform: translateY(-40px); }
   to{ transform: translateY(260px); }
 }
+
+@media (max-width: 600px){
+  .santa{
+    width: 100px;
+    height: 100px;
+  }
+}
