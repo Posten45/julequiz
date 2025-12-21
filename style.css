@@ -45,12 +45,12 @@ body{
 }
 
 .santa{
-  width: 92px;
-  height: 92px;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
   border-radius: 999px;
-  border: 2px solid rgba(255,255,255,0.22);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+  border: 3px solid rgba(255,255,255,0.28);
+  box-shadow: 0 14px 35px rgba(0,0,0,0.45);
 }
 
 h1{
