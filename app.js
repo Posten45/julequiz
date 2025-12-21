@@ -206,7 +206,7 @@ function renderQuestion(){
 
 function computeWinner(){
   // find max score, tie-breaker via deterministic priority list
-  const priority = ["paris","rome","barcelona","london","amsterdam","prague","berlin"];
+  const priority = ["barcelona","rome","paris","london","amsterdam","prague","berlin"];
   let bestCity = priority[0];
   let bestScore = -Infinity;
 
