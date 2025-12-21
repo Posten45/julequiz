@@ -33,24 +33,19 @@ body{
 }
 
 .hero{
-  display: grid;
-  grid-template-columns: 92px 1fr;
-  gap: 16px;
+  grid-template-columns: auto 1fr;
   align-items: center;
-  margin-bottom: 18px;
-  padding: 16px;
-  border: 1px solid var(--stroke);
-  background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
-  border-radius: var(--radius);
 }
 
 .santa{
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
-  border-radius: 999px;
-  border: 3px solid rgba(255,255,255,0.28);
-  box-shadow: 0 14px 35px rgba(0,0,0,0.45);
+  border-radius: 50%;
+  border: 3px solid rgba(255,255,255,0.35);
+  box-shadow:
+    0 0 0 6px rgba(255,209,102,0.15),
+    0 18px 45px rgba(0,0,0,0.55);
 }
 
 h1{
@@ -245,9 +240,9 @@ h1{
   to{ transform: translateY(260px); }
 }
 
-@media (max-width: 600px){
+@media (max-width: 700px){
   .santa{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
   }
 }
