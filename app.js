@@ -24,9 +24,9 @@ const CITIES = {
     name: "Barcelona 🇪🇸",
     tagline: "Sol, liv og 'bare én sang mere'.",
     bullets: [
-      "Strand + storby på én gang",
-      "Perfekt hvis du elsker energi og farver",
-      "Tapas-date? Ja tak."
+      "Strand + storby på én gang wuhhuuuuu 🏖️",
+      "og sangiraaaaaa 🍷",
+      "Tapas-date? Ja taaaaaak mand."
     ],
     image: "assets/byer/barcelona.jpg"
   },
@@ -79,7 +79,7 @@ const QUESTIONS = [
     title: "1) Hvis vi rejser i 3-4 dage, hvad skal det mest føles som?",
     answers: [
       { text: "Romantisk og lidt film-agtigt ❤️", points: { paris: 3, rome: 2 } },
-      { text: "Masser af liv, energi og sjove ting 🎉", points: { barcelona: 3, berlin: 2 } },
+      { text: "Masser af liv, energi og måske en lille sangria 🎉", points: { barcelona: 3, berlin: 2 } },
       { text: "Hyggeligt, smukt og roligt 😌", points: { amsterdam: 3, prague: 2 } },
       { text: "Storby-klassiker med alt (shopping + kultur) 🛍️", points: { london: 3, paris: 1 } }
     ]
@@ -90,11 +90,11 @@ const QUESTIONS = [
       { text: "Mad og gode steder 🍝", points: { rome: 3, barcelona: 2 } },
       { text: "Oplevelser og seværdigheder 🏛️", points: { paris: 2, prague: 3 } },
       { text: "Shopping og storby-liv 🛍️", points: { london: 3, berlin: 2 } },
-      { text: "Bare hygge sammen + vibe 💛", points: { amsterdam: 3, paris: 1 } }
+      { text: "Bare hygge sammen med din lille pussetrold hihihi 🥰", points: { barcelona: 3, paris: 1 } }
     ]
   },
   {
-    title: "3) Hvilken tempo-type er du på ferie?",
+    title: "3) Hvilken tempo skal ferien være i?",
     answers: [
       { text: "Roligt: 1-2 store ting om dagen, resten café 😌", points: { amsterdam: 3, paris: 1 } },
       { text: "Planlagt: vi skal nå en masse ✔️", points: { london: 2, prague: 2, rome: 1 } },
@@ -103,21 +103,21 @@ const QUESTIONS = [
     ]
   },
   {
-    title: "4) Hvad er den bedste 'jule-vibe' på en storbytur?",
+    title: "4) Hvad betyder vejret og omgivelserne for dig?",
     answers: [
-      { text: "Julelys, pynt og shoppinggader ✨", points: { london: 3, paris: 1 } },
-      { text: "Julemarkeder og varm kakao/Glühwein ☕️", points: { prague: 3, berlin: 2 } },
-      { text: "Hyggelige caféer og gåture i koldt vejr 🕯️", points: { amsterdam: 3, paris: 1 } },
-      { text: "Jeg vil faktisk hellere have sol end sne ☀️", points: { barcelona: 3, rome: 2 } }
+      { text: "Sol, strand og varmt vejr er et must ☀️🏖️", points: { barcelona: 3, rome: 2 } },
+      { text: "Hyggelige gader og pænt vejr, strand er bonus 🌤️", points: { amsterdam: 2, paris: 2, prague: 1 } },
+      { text: "Storby-oplevelser er vigtigst, vejret er sekundært 🏙️", points: { london: 3, berlin: 2 } },
+      { text: "Varmt og godt til at gå rundt i byen ☀️🚶‍♀️", points: { rome: 2, barcelona: 2, paris: 1 } }
     ]
   },
   {
-    title: "5) Den vigtigste ting ved rejsen er…",
+    title: "5) Hvor fancy må det gerne være?",
     answers: [
-      { text: "At vi får romantisk kvalitetstid ❤️", points: { paris: 3, rome: 2 } },
-      { text: "At vi griner og laver noget fedt 😄", points: { berlin: 2, barcelona: 2, london: 1 } },
-      { text: "At det føles hyggeligt og 'cozy' 🎄", points: { amsterdam: 2, prague: 3 } },
-      { text: "At du (ja DIG) er med 💘", points: { paris: 2, rome: 2, london: 2, amsterdam: 2, prague: 2, barcelona: 2, berlin: 2 } }
+      { text: "Lidt luksus: gode restauranter og fine oplevelser ✨", points: { paris: 3, london: 2, rome: 1 } },
+      { text: "Afslappet: streetfood og autentiske steder 🍕", points: { berlin: 3, barcelona: 2, rome: 1 } },
+      { text: "Godt værdi for pengene og masser af oplevelser 💰", points: { prague: 3, berlin: 2, barcelona: 1 } },
+      { text: "Balance: nogle forkælelsesoplevelser + chill vibes 🎯", points: { amsterdam: 3, barcelona: 2, paris: 1 } }
     ]
   }
 ];
@@ -202,7 +202,7 @@ function renderQuestion(){
 
   backBtn.disabled = currentIndex === 0;
   nextBtn.disabled = selected[currentIndex] === null;
-  nextBtn.textContent = (currentIndex === QUESTIONS.length - 1) ? "Se resultat 🎁" : "Næste";
+  nextBtn.textContent = (currentIndex === QUESTIONS.length - 1) ? "Se hvor vi skal heeen 🎁" : "Næste";
 }
 
 function computeWinner(){
@@ -305,8 +305,8 @@ copyBtn.addEventListener("click", async () => {
   const c = CITIES[cityKey];
   const text =
 `🎄 Julequiz resultat:
-Min perfekte storby er: ${c.name}
-Tilskud: 1.000 kr ❤️`;
+Vi skal til, uhhhh drumsolo: ${c.name}
+Tilskud: 1.000 kr fra mig❤️`;
 
   try{
     await navigator.clipboard.writeText(text);
