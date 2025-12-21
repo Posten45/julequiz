@@ -6,7 +6,7 @@ const CITIES = {
     bullets: [
       "Perfekt til gåture, vin og små hyggelige steder",
       "Kæmpe bonus hvis du elsker croissanter og udsigt",
-      "Julelys + romantik = farligt niveau ❤️"
+      "romantik  ❤️"
     ],
     image: "assets/byer/paris.jpg"
   },
@@ -32,10 +32,10 @@ const CITIES = {
   },
   london: {
     name: "London 🇬🇧",
-    tagline: "Shopping, kultur og julefilm-stemning i virkeligheden.",
+    tagline: "Shopping, kultur og god stemning",
     bullets: [
       "Museer, musicals og store oplevelser",
-      "Jul i London går helt amok (på den gode måde)",
+      "London klasse by jo",
       "Ideel til 'vi skal lige i én butik mere'"
     ],
     image: "assets/byer/london.jpg"
@@ -55,17 +55,16 @@ const CITIES = {
     tagline: "Eventyrby + julemarkeder = kæmpe ja.",
     bullets: [
       "Sindssyg flot arkitektur og hygge",
-      "Julemarkeder der føles som en film",
       "God hvis du elsker 'magisk stemning'"
     ],
     image: "assets/byer/prague.jpg"
   },
   berlin: {
     name: "Berlin 🇩🇪",
-    tagline: "Cool storby, god mad og julemarkeder med attitude.",
+    tagline: "Cool storby, god mad.",
     bullets: [
       "Streetfood, kultur og masser at lave",
-      "Julemarkeder (glühwein-hazard ☕️)",
+      "Livlig by med masser af energi",
       "Perfekt hvis du vil have både chill og oplevelser"
     ],
     image: "assets/byer/berlin.jpg"
@@ -96,19 +95,19 @@ const QUESTIONS = [
   {
     title: "3) Hvilken tempo skal ferien være i?",
     answers: [
-      { text: "Roligt: 1-2 store ting om dagen, resten café 😌", points: { amsterdam: 3, paris: 1 } },
-      { text: "Planlagt: vi skal nå en masse ✔️", points: { london: 2, prague: 2, rome: 1 } },
-      { text: "Spontant: vi ser hvad der sker 😄", points: { berlin: 3, barcelona: 2 } },
-      { text: "Lidt af det hele – fleksibel 🧭", points: { paris: 2, london: 1, rome: 1 } }
+      { text: "Roligt: 1-2 store ting om dagen, resten café 😌", points: { amsterdam: 2, paris: 1 } },
+      { text: "Planlagt: vi skal nå en masse ✔️", points: { london: 2, prague: 1, rome: 1 } },
+      { text: "Spontant: vi ser hvad der sker 😄", points: { barcelona: 3, london: 2 } },
+      { text: "Lidt af det hele – fleksibel 🧭", points: { paris: 2, london: 1, barcelona: 1 } }
     ]
   },
   {
     title: "4) Hvad betyder vejret og omgivelserne for dig?",
     answers: [
-      { text: "Sol, strand og varmt vejr er et must ☀️🏖️", points: { barcelona: 3, rome: 2 } },
+      { text: "Sol, strand og varmt vejr er vigtigt ☀️🏖️", points: { barcelona: 3, rome: 2 } },
       { text: "Hyggelige gader og pænt vejr, strand er bonus 🌤️", points: { amsterdam: 2, paris: 2, prague: 1 } },
       { text: "Storby-oplevelser er vigtigst, vejret er sekundært 🏙️", points: { london: 3, berlin: 2 } },
-      { text: "Varmt og godt til at gå rundt i byen ☀️🚶‍♀️", points: { rome: 2, barcelona: 2, paris: 1 } }
+      { text: "Varmt og godt til at gå rundt i byen ☀️🚶‍♀️", points: { rome: 2, barcelona: 3, paris: 1 } }
     ]
   },
   {
@@ -116,8 +115,8 @@ const QUESTIONS = [
     answers: [
       { text: "Lidt luksus: gode restauranter og fine oplevelser ✨", points: { paris: 3, london: 2, rome: 1 } },
       { text: "Afslappet: streetfood og autentiske steder 🍕", points: { berlin: 3, barcelona: 2, rome: 1 } },
-      { text: "Godt værdi for pengene og masser af oplevelser 💰", points: { prague: 3, berlin: 2, barcelona: 1 } },
-      { text: "Balance: nogle forkælelsesoplevelser + chill vibes 🎯", points: { amsterdam: 3, barcelona: 2, paris: 1 } }
+      { text: "Godt værdi for pengene og masser af oplevelser 💰", points: { prague: 2, berlin: 2, barcelona: 3 } },
+      { text: "Balance: nogle forkælelsesoplevelser + chill vibes 🎯", points: { amsterdam: 2, barcelona: 3, paris: 1 } }
     ]
   }
 ];
