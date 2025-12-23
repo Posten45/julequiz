@@ -77,10 +77,10 @@ const QUESTIONS = [
   {
     title: "1) Hvis vi rejser i 3-4 dage, hvad skal det mest føles som?",
     answers: [
-      { text: "Romantisk og lidt film-agtigt ❤️", points: { paris: 3, rome: 2 } },
+      { text: "Romantisk og lidt film-agtigt ", points: { paris: 3, rome: 2 } },
       { text: "Masser af liv, energi og måske en lille sangria 🎉", points: { barcelona: 3, berlin: 2 } },
-      { text: "Hyggeligt, smukt og roligt 😌", points: { amsterdam: 3, prague: 2 } },
-      { text: "Storby-klassiker med alt (shopping + kultur) 🛍️", points: { london: 3, paris: 1 } }
+      { text: "Hyggeligt, smukt og roligt ", points: { amsterdam: 3, prague: 2 } },
+      { text: "Storby-klassiker med en masse shopping 🛍️", points: { london: 3, paris: 1 } }
     ]
   },
   {
@@ -95,28 +95,28 @@ const QUESTIONS = [
   {
     title: "3) Hvilken tempo skal ferien være i?",
     answers: [
-      { text: "Roligt: 1-2 store ting om dagen, resten café 😌", points: { amsterdam: 2, paris: 1 } },
-      { text: "Planlagt: vi skal nå en masse ✔️", points: { london: 2, prague: 1, rome: 1 } },
-      { text: "Spontant: vi ser hvad der sker 😄", points: { barcelona: 3, london: 2 } },
-      { text: "Lidt af det hele – fleksibel 🧭", points: { paris: 2, london: 1, barcelona: 1 } }
+      { text: "Roligt med 1-2 store ting om dagen, resten afslapning 😌", points: { amsterdam: 2, paris: 1 } },
+      { text: "Planlagt, vi skal nå en masse ✔️", points: { london: 2, prague: 1, rome: 1 } },
+      { text: "Spontant, vi ser hvad der sker 😄", points: { barcelona: 3, london: 2 } },
+      { text: "Lidt af det hele, meget fleksibel 🧭", points: { paris: 2, london: 1, barcelona: 1 } }
     ]
   },
   {
     title: "4) Hvad betyder vejret og omgivelserne for dig?",
     answers: [
-      { text: "Sol, strand og varmt vejr er vigtigt ☀️🏖️", points: { barcelona: 3, rome: 2 } },
+      { text: "Sol, strand og varmt vejr er skal jeg bare ha ☀️🏖️", points: { barcelona: 3, rome: 2 } },
       { text: "Hyggelige gader og pænt vejr, strand er bonus 🌤️", points: { amsterdam: 2, paris: 2, prague: 1 } },
-      { text: "Storby-oplevelser er vigtigst, vejret er sekundært 🏙️", points: { london: 3, berlin: 2 } },
+      { text: "Storbyoplevelse er vigtigst, vejret er sekundært 🏙️", points: { london: 3, berlin: 2 } },
       { text: "Varmt og godt til at gå rundt i byen ☀️🚶‍♀️", points: { rome: 2, barcelona: 3, paris: 1 } }
     ]
   },
   {
     title: "5) Hvor fancy må det gerne være?",
     answers: [
-      { text: "Lidt luksus: gode restauranter og fine oplevelser ✨", points: { paris: 3, london: 2, rome: 1 } },
-      { text: "Afslappet: streetfood og autentiske steder 🍕", points: { berlin: 3, barcelona: 2, rome: 1 } },
+      { text: "Lidt luksus med gode restauranter og fine oplevelser ✨", points: { paris: 3, london: 2, rome: 1 } },
+      { text: "Afslappet med streetfood og autentiske steder 🍕", points: { berlin: 3, barcelona: 2, rome: 1 } },
       { text: "Godt værdi for pengene og masser af oplevelser 💰", points: { prague: 2, berlin: 2, barcelona: 3 } },
-      { text: "Balance: nogle forkælelsesoplevelser + chill vibes 🎯", points: { amsterdam: 2, barcelona: 3, paris: 1 } }
+      { text: "Balance, nogle forkælelsesoplevelser og chill vibes 🎯", points: { amsterdam: 2, barcelona: 3, paris: 1 } }
     ]
   }
 ];
